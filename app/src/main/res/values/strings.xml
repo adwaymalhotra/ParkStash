@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ParkStash</string>
+    <string name="hello_sameer">Hello Sameer!</string>
+    <string name="book_a_spot">Book a Spot</string>
+    <string name="list_a_spot">List a Spot</string>
+    <string name="past_bookings">Past Bookings</string>
+    <string name="payments">Payments</string>
+    <string name="promos">Promos</string>
+    <string name="wallet">Wallet</string>
+    <string name="my_profile">My Profile</string>
+    <string name="ratings">Ratings</string>
+    <string name="help">Help</string>
+    <string name="legal">Legal</string>
+    <string name="logout">Logout</string>
+    <string name="google_api_key">AIzaSyAexrUbKIBt4JgpT0bvwVHSbyJHpujpyCw</string>
+</resources>

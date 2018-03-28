@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/searchBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent"
+        android:hint="search"
+        android:padding="8dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Save Current Location"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/addButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchBarLayout" />
+
+</android.support.constraint.ConstraintLayout>

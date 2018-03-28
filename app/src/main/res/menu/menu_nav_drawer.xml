@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_1">
+        <item
+            android:icon="@drawable/book_128"
+            android:title="@string/book_a_spot" />
+        <item
+            android:icon="@drawable/house"
+            android:title="@string/list_a_spot" />
+        <item
+            android:icon="@drawable/pastbooking_128"
+            android:title="@string/past_bookings" />
+    </group>
+    <group android:id="@+id/group_2">
+        <item
+            android:icon="@drawable/payment_128"
+            android:title="@string/payments" />
+        <item
+            android:icon="@drawable/promo_128"
+            android:title="@string/promos" />
+        <item
+            android:icon="@drawable/wallet_128"
+            android:title="@string/wallet" />
+        <item
+            android:icon="@drawable/profile_128"
+            android:title="@string/my_profile" />
+        <item
+            android:icon="@drawable/rating_128"
+            android:title="@string/ratings" />
+    </group>
+    <group android:id="@+id/group_3">
+        <item
+            android:icon="@drawable/help_128"
+            android:title="@string/help" />
+        <item
+            android:icon="@drawable/legal_128"
+            android:title="@string/legal" />
+        <item
+            android:icon="@drawable/logout_128"
+            android:title="@string/logout" />
+    </group>
+</menu>

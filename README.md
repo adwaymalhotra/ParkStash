@@ -1,3 +1,3 @@
 # ParkStash
 
-Project Files for ParkStach challenge.
+MapView Example in Kotlin.
